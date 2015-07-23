@@ -19,3 +19,4 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 from Adafruit_DHT.common import DHT11, DHT22, AM2302, read, read_retry
+#from Adafruit_DHT.platform_detect import *

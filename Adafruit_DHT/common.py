@@ -20,7 +20,7 @@
 # SOFTWARE.
 import time
 
-import Adafruit_DHT.platform_detect
+import Adafruit_DHT.platform_detect as platform_detect
 
 
 # Define error constants.
