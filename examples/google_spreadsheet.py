@@ -38,7 +38,7 @@ import sys
 import time
 import datetime
 
-import Adafruit_DHT
+import Adafruit_DHT.Adafruit_DHT
 import gspread
 from oauth2client.client import SignedJwtAssertionCredentials
 

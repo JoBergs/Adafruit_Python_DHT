@@ -43,7 +43,17 @@ static PyMethodDef module_methods[] = {
     {NULL, NULL, 0, NULL}
 };
 
-PyMODINIT_FUNC initTest_Driver(void)
+static struct PyModuleDef Test_Driver = {
+   PyModuleDef_HEAD_INIT,
+   "Test_Driver",   /* name of module */
+   "", /* module documentation, may be NULL */
+   -1,       /* size of per-interpreter state of the module,
+                or -1 if the module keeps state in global variables. */
+   module_methods
+};
+
+PyMODINIT_FUNC
+PyInit_Test_Driver(void)
 {
-    Py_InitModule("Test_Driver", module_methods);
+    return PyModule_Create(&Test_Driver);
 }
