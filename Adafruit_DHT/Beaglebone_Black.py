@@ -20,7 +20,7 @@
 # SOFTWARE.
 import re
 
-import common
+import Adafruit_DHT.common as common
 import Adafruit_DHT.Beaglebone_Black_Driver as driver
 
 

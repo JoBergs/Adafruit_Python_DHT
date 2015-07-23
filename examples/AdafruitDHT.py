@@ -21,7 +21,7 @@
 # SOFTWARE.
 import sys
 
-import Adafruit_DHT.Adafruit_DHT
+import Adafruit_DHT.Adafruit_DHT as Adafruit_DHT
 
 
 # Parse command line parameters.
