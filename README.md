@@ -25,3 +25,6 @@ Updated for Python 3
 ==================================
 Tested on a Raspberry Pi 2.
 
+Updated for Support of Pi3 wit Python3
+======================================
+Tested with Pi3 but from time to time the DHT22 returns NONE and the program ends...
